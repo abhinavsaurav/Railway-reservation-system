@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<style>
+h1{
+	font-size:45px;
+	word-spacing:5px;
+	
+}
+{margin: 0;padding:0;}
+input[type=button], input[type=submit], input[type=reset]{
+    
+    border: none;
+    color: white;
+	border-radius:25px;
+	
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	width:50%;
+	background-color:#46aece;
+}
+ input[type=text], input[type=password]{
+	text-align:center;
+	margin: 4px 2px;
+    width:66%;
+	margin:5px;
+	padding: 8px 16px;
+	border-radius:5px;
+	border: none;
+ }
+ .bordAdd{	
+    border: 2px solid;
+    border-radius: 25px;
+	margin-left:35%;
+	margin-right:35%
+	
+	}
+
+
+html { 
+        background: url('picture/pic1.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+</style>
+<meta charset="ISO-8859-1">
+<title>LOGIN</title>
+<center><br>
+<h1>TRAIN RESERVATION SYSTEM</h1></center>
+</head>
+<body ><br><br>
+<br><center>
+<div class="bordAdd"><br><br>
+<form action="http://localhost/example/index.php" method="POST">
+
+	<b>USERNAME:</b><br><input type="text" name="userid"  placeholder="ENTER USERNAME"  required><br><br>
+	<b>PASSWORD:</b><br><input type="password" name="pass" placeholder="ENTER PASSWORD   " required><br><br>
+
+	<input type="submit" name="button1" value="LOGIN">
+<br><br>
+<tr><th><a href="http://localhost/example/newuser.php">
+<input type="button" name="new_user" value="NEW USER" >
+</a>
+
+</form><br><br>
+</div>
+</center>
+
+</body>
+</html>
